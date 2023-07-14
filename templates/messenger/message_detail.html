@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}
+  Message Detail
+{% endblock %}
+
+{% block content %}
+  <p>Message Detail</p>
+  <p>{{ message.text }}</p>
+  <p>{{ message.created_at }}</p>
+{% endblock %}

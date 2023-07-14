@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <p>Hello, world!</p>
+  <a href="{% url 'messenger:home' %}">Link to Home</a>
+  <p>Num messages: {{ num_messages }}</p>
+  <p>Session marco: {{ session_marco }}</p>
+{% endblock %}
